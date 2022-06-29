@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  font-family: Inter;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-left: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.9375rem;
+  padding: 0 1.5rem;
+}
+
+.upload-button {
+  background: #ffffff;
+  border: 0.0125rem solid #000000;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.text-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 8.1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1e1e1e;
+}
+
+.search-subtitle {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #1e1e1e;
+}
+
+.search-caption {
+  font-style: italic;
+  font-weight: 300;
+  color: #1e1e1e;
+  line-height: 2rem;
+  font-size: 0.75rem;
+}
+
+.info-row {
+  background: url('danfo-real.png'),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.67) 0%, #ffffff 100%);
+  background-blend-mode: overlay;
+  height: 34rem;
+}
+.navbar-list {
+  display: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem;
+  border: 0.0625rem solid #828282;
+  border-radius: 0.5rem;
+}
+
+.search-input-container {
+  margin: 0 1.5rem;
+}
+
+[class*='item-'] {
+  width: 100%;
+  background: brown;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.item-1,
+.item-7,
+.item-20,
+.item-22,
+.item-16,
+.item-26 {
+  height: 198px;
+}
+
+.item-3,
+.item-6,
+.item-8,
+.item-9,
+.item-11,
+.item-12,
+.item-13,
+.item-18,
+.item-21,
+.item-24,
+.item-27 {
+  height: 310px;
+}
+
+.item-2,
+.item-4,
+.item-5,
+.item-10,
+.item-14,
+.item-15,
+.item-17,
+.item-19,
+.item-23,
+.item-25,
+.item-28 {
+  height: 528px;
+}
+
+@media screen and (min-width: 650px) {
+  .hamburger {
+    display: none;
+  }
+  .navbar {
+    height: 5.5rem;
+    padding: 0 4rem;
+  }
+  .navbar-list {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+  }
+  .list-item {
+    margin: 0 0.5rem;
+  }
+
+  .text-container {
+    padding-top: 12rem;
+  }
+
+  .info-row {
+    height: 42.0625rem;
+    background-size: 100% 100%;
+  }
+
+  .search-subtitle {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #1e1e1e;
+  }
+
+  .search-input-container {
+    margin: 0 24.875rem;
+  }
+
+  .search-caption {
+    font-size: 0.875;
+  }
+
+  .image-row {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .image-col {
+    width: 25%;
+  }
+}
